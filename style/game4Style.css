@@ -1,0 +1,273 @@
+/*HTML:*/
+@font-face {   
+  font-family: "Blocktopia";
+  src: url(../media/Blocktopia.ttf);
+}
+
+.background {
+  width: 1920px;
+  height: 1080px;
+  background-image: url(../media/FinalBCKGRND.png);
+  position: fixed;
+  border: none;
+}
+
+.grid {
+  width: 928px;
+  height: 1080px;
+  margin-left: 491px;
+  background-image: none;
+  position: fixed;
+  border: none;
+}
+
+#scoreShow {
+  position: absolute;
+  display: block;
+  overflow: hidden;
+  outline: none;
+  top: 45px;
+  left: 1690px;
+  color: white;
+  font-size: 51px;
+  font-family: "Blocktopia";
+  border: none;
+}
+
+#timer {
+  position: absolute;
+  display: block;
+  overflow: hidden;
+  outline: none;
+  top: 969px;
+  left: 1652px;
+  color: white;
+  font-size: 51px;
+  font-family: "Blocktopia";
+  border: none;
+}
+
+.modal {
+  display: none;
+  width: 1920px;
+  height: 1080px;
+  left: 0px; /*IMPORTANT, 'cause it fixed in the middle*/
+  position: fixed;
+  top: 0em;
+  overflow: none;
+  background-repeat: no-repeat;
+  background-image: url(../media/FinalModal.png);
+  border: none;
+}
+
+.Games {
+  display: block;
+  width: 157px;
+  height: 46px;
+  top: 943px;
+  left: 483px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  position: absolute;
+  z-index: 300;
+}
+
+.MainMenu {
+  display: block;
+  width: 336px;
+  height: 53px;
+  top: 936px;
+  left: 792px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  position: absolute;
+  z-index: 300;
+}
+
+.Next {
+  display: block;
+  width: 210px;
+  height: 49px;
+  top: 940px;
+  left: 1230px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  position: absolute;
+  z-index: 300;
+}
+
+#tryAgain {
+  background-repeat: no-repeat;
+  background-image: url(../media/TryAgain.png);
+  width: 1920px;
+  height: 1080px;
+  border: none;
+}
+
+.TryAgainOption {
+  display: block;
+  width: 430px;
+  height: 33px;
+  top: 873px;
+  left: 745px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  position: absolute;
+}
+
+.TryAgainMainMenu {
+  display: block;
+  width: 336px;
+  height: 53px;
+  top: 948px;
+  left: 792px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  position: absolute;
+}
+/*AIR*/
+/*AIR*/
+/*AIR*/
+/*AIR*/
+/*AIR*/
+/*JS:*/
+.gurmann {
+  position: absolute;
+}
+
+.platform {
+  width: 196px;
+  height: 72px;
+  background-image: url(../media/Platforms/Good_One.png);
+  position: absolute;
+}
+
+.coin {
+  width: 64px;
+  height: 64px;
+  background-image: url(../media/Animated_Items/Coin.gif);
+  position: absolute;
+}
+
+.redGem {
+  width: 64px;
+  height: 64px;
+  background-image: url(../media/Animated_Items/Red_Gem.gif);
+  position: absolute;
+}
+
+.LetterF {
+  width: 64px;
+  height: 64px;
+  background-image: url(../media/FRASE/F_item.png);
+  position: absolute;
+  background-repeat: no-repeat;
+}
+
+.LetterR {
+  width: 64px;
+  height: 64px;
+  background-image: url(../media/FRASE/R_item.png);
+  position: absolute;
+  background-repeat: no-repeat;
+}
+
+.LetterA {
+  width: 64px;
+  height: 64px;
+  background-image: url(../media/FRASE/A_item.png);
+  position: absolute;
+  background-repeat: no-repeat;
+}
+
+.LetterS {
+  width: 64px;
+  height: 64px;
+  background-image: url(../media/FRASE/S_item.png);
+  position: absolute;
+  background-repeat: no-repeat;
+}
+
+.LetterE {
+  width: 64px;
+  height: 64px;
+  background-image: url(../media/FRASE/E_item.png);
+  position: absolute;
+  background-repeat: no-repeat;
+}
+
+#F{
+  width: 1920px;
+  height: 1080px;
+  display: block;
+  background-image: url(../media/FRASE/F.png);
+  background-color: transparent;
+  background-repeat: no-repeat;
+  z-index: 300;
+  position: absolute;
+  border: none;
+}
+#R{
+  width: 1920px;
+  height: 1080px;
+  display: block;
+  background-image: url(../media/FRASE/R.png);
+  background-color: transparent;
+  background-repeat: no-repeat;
+  z-index: 300;
+  position: absolute;
+  border: none;
+}
+#A{
+  width: 1920px;
+  height: 1080px;
+  display: block;
+  background-image: url(../media/FRASE/A.png);
+  background-color: transparent;
+  background-repeat: no-repeat;
+  z-index: 300;
+  position: absolute;
+  border: none;
+}
+#S{
+  width: 1920px;
+  height: 1080px;
+  display: block;
+  background-image: url(../media/FRASE/S.png);
+  background-color: transparent;
+  background-repeat: no-repeat;
+  z-index: 300;
+  position: absolute;
+  border: none;
+}
+#E{
+  width: 1920px;
+  height: 1080px;
+  display: block;
+  background-image: url(../media/FRASE/E.png);
+  background-color: transparent;
+  background-repeat: no-repeat;
+  z-index: 300;
+  position: absolute;
+  border: none;
+}
